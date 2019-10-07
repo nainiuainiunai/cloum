@@ -1,0 +1,296 @@
+/*header部分开始*/
+.inner{
+	width: 980px;
+	margin:0 auto;
+}
+a{
+	text-decoration: none;
+	color:#7d667d;
+}
+.header{
+	width: 100%;
+	height:100px;
+}
+.header .header_inner{
+	overflow: hidden;
+}
+.header .header_inner .logo{
+	width: 196px;
+	height:100px;
+	float: left;
+	padding-top:25px;
+}
+.header .header_inner .logo a{
+	display: block;
+	width: 196px;
+	height: 50px;
+	text-indent:-999em;
+	overflow: hidden;
+	background: url(../images/logo.png) no-repeat;
+}
+.header .header_inner .nav{
+	float: left;
+	width: 784px;
+}
+.header .header_inner .nav ul{
+	overflow: hidden;
+	padding-top:35px;
+}
+.header .header_inner .nav ul li{
+	float: left;
+	width: 130px;
+	height: 30px;
+}
+.header .header_inner .nav ul li a{
+	display: block;
+	width: 76px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 13px;
+	border-radius:3px;
+}
+.header .header_inner .nav ul li a:hover,.header .header_inner .nav ul li.cur a{
+	background-color: #666666;
+	color:#fff5d8;
+}
+/*banner*/
+.banner{
+	width: 100%;
+	padding:40px 0;
+	background: #4c4c4c;
+	box-shadow:inset 0 0 30px #000;
+}
+.banner img{
+	display: block;
+	width: 980px;
+}
+/*text开始*/
+.text{
+	width: 100%;
+	height:91px;
+	padding-top:20px;
+}
+.text .text_inner{
+	overflow: hidden;
+}
+.text .text_inner .left{
+	float: left;
+	width: 635px;
+	height:91px;
+}
+.text .text_inner .left p{
+	font-size: 12px;
+	line-height: 22px;
+	color:#3f3d40;
+	overflow: hidden;
+}
+.text .text_inner .left p span{
+	color:#ff6501;
+	font-size: 32px;
+	float: left;
+	width: 45px;
+	line-height: 91px;
+	text-align: center;
+}
+.text .text_inner .right{
+	float: right;
+	width: 272px;
+	height: 56px;
+}
+.text .text_inner .right ul{
+	overflow: hidden;
+}
+.text .text_inner .right ul li{
+	float: left;
+	width: 76px;
+	height: 50px;
+	margin-right: 13px;
+	border:1px solid #caccc9;
+	padding:2px;
+}
+.text .text_inner .right ul li img{
+	display: block;
+	width: 100%;
+}
+.text .text_inner .right ul li.last{
+	margin:0;
+}
+/*container开始*/
+.container{
+	width: 100%;
+	height:437px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	padding:20px 0;
+	background: #f7f7f7;
+}
+.container ul{
+	overflow: hidden;
+}
+.container ul li{
+	float: left;
+	width: 277px;
+	height: 437px;
+	padding-right:37px;
+}
+.container ul li.second{
+	border-left:2px dotted #cbcbcb;
+	border-right:2px dotted #cbcbcb;
+	padding-left:36px;
+	padding-right:35px;
+}
+.container ul li.last{
+	padding-left:34px;
+	padding-right:0;
+}
+.container ul li h3{
+	height:50px;
+	line-height: 50px;
+	color:#3f3e3a;
+	font-size: 22px;
+}
+.container ul li img{
+	display: block;
+	width: 270px;
+	height:163px;
+	border:5px solid #ccc;
+}
+.container ul li p{
+	font-size: 12px;
+	line-height: 22px;
+	color:#3e3e3e;
+	margin:15px 0 11px 0;
+}
+.container ul li a{
+	display: block;
+	width: 40px;
+	height: 25px;
+	font-size: 14px;
+	color:#ffffdd;
+	font-weight: bold;
+	line-height: 25px;
+	text-align: center;
+	background: #333;
+}
+/*img开始*/
+.img{
+	width: 100%;
+}
+.img p{
+	padding:29px 124px;
+	font-size: 12px;
+	line-height: 22px;
+	color:#403f3b;
+	height:43px;
+	text-align: center;
+	background: url(../images/qleft.png) no-repeat left center,url(../images/qright.png) no-repeat right center;
+}
+/*footer*/
+.footer{
+	width: 100%;
+	border-bottom:1px solid #1d1d1d;
+}
+.footer .top{
+	width: 100%;
+	height: 292px;
+	padding-top:20px;
+	border-bottom:1px solid #727272;
+	background: #4c4c4c;
+}
+.footer .top div h3{
+	font-size: 14px;
+	font-weight: bold;
+	color:#fff;
+	line-height: 40px;
+}
+.footer .top .visitor{
+	width: 210px;
+	float: left;
+	margin-right:38px;
+}
+.footer .top .visitor ul{
+	overflow: hidden;
+}
+.footer .top .visitor ul li{
+	float: left;
+	width: 56px;
+	height: 56px;
+	margin-right: 11px;
+	margin-bottom: 5px;
+}
+.footer .top .visitor ul li a{
+	display: block;
+	width: 56px;
+	height: 56px;
+}
+.footer .top .visitor ul li a img{
+	display: block;
+	width: 50px;
+	height: 50px;
+	border:3px solid #232122;
+}
+.footer .top .visitor ul li a:hover img{
+	opacity: 0.6;
+}
+.footer .top .friend,.footer .top .link{
+	float: left;
+	width: 172px;
+	margin-right: 40px;
+}
+.footer .top .friend ul,.footer .top .link ul{
+	overflow: hidden;
+}
+.footer .top .friend ul li,.footer .top .link ul li{
+	height:30px;
+	border-bottom:1px solid #444444;
+}
+.footer .top .friend ul li a,.footer .top .link ul li a{
+	display: block;
+	width: 100%;
+	line-height: 30px;
+	color:#cbccce;
+	font-size: 12px;
+}
+.footer .top .friend ul li a:hover,.footer .top .link ul li a:hover{
+	color:#fff;
+}
+.footer .top .message{
+	float: left;
+	width: 270px;
+}
+.footer .top .message input{
+	width: 264px;
+	height: 32px;
+	border:1px solid #3b3b3b;
+	color:#cdccca;
+	font-size: 12px;
+	padding-left:4px;
+	margin-bottom: 10px;
+	background: #444444;
+}
+.footer .top .message textarea{
+	width: 264px;
+	height: 96px;
+	border:1px solid #3b3b3b;
+	font-size: 12px;
+	color:#cdccca;
+	background: #444;
+	margin-bottom: 10px;
+}
+.footer .top .message input.send{
+	width: 50px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+}
+.footer .bottom{
+	width: 100%;
+	height:37px;
+	background: #333333;
+}
+.footer .bottom p{
+	font-size: 12px;
+	color:#fff;
+	line-height: 37px;
+}
